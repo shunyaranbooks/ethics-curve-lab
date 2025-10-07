@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ethics-curve-lab"
+version = "0.1.0"
+description = "Operationalizing The Ethics Curve: measure, simulate, and govern ethical drift over time in AI systems."
+authors = [
+  {name="Dr. Mohammad Amir Khusru Akhtar", email="shunya.ran.books@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "scipy>=1.10.0",
+    "pyyaml>=6.0.0",
+    "matplotlib>=3.7.0",
+    "shap>=0.45.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.23.0",
+    "streamlit>=1.33.0"
+]
+
+[project.urls]
+Homepage = "https://www.shunyapublications.com/"
+Repository = "https://github.com/shunyapublications/ethics-curve-lab"
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["ecl*"]

@@ -1,0 +1,13 @@
+audit_frequency_days: 30
+protected_attributes: ["sex", "race"]
+fairness_thresholds:
+  demographic_parity_diff: 0.10
+  equalized_odds_diff: 0.15
+harm_thresholds:
+  fpr_gap: 0.08
+transparency:
+  require_shap: false
+  min_feature_docs: 0.7
+governance:
+  ces_floor: 0.72
+  alert_emails: ["ethics-committee@umu.ac.in"]
