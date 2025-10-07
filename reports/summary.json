@@ -1,0 +1,104 @@
+{
+  "series": [
+    0.7185668207952578,
+    0.7141858196215837,
+    0.7572312692793751,
+    0.7615355139383571
+  ],
+  "details": [
+    {
+      "time_index": 0,
+      "fairness": 0.7353570547981196,
+      "fair_debug": {
+        "dp_max": 0.009142968988638756,
+        "eo_max": 0.07132486388384751,
+        "fpr_gap_max": 0.04712633684027473,
+        "wga_min": 0.6726057906458798
+      },
+      "harm": 0.027521518681899254,
+      "transparency": 0.75,
+      "gov": 0.8,
+      "drift": {
+        "psi": 0.03303844647704255,
+        "psi_raw": 0.012640919769742751,
+        "kl_raw": 0.053435973184342345
+      },
+      "ces": 0.7185668207952578,
+      "base_no_smooth": 0.7185668207952578,
+      "actions": [
+        "Review demographic parity components",
+        "Trigger re-audit"
+      ]
+    },
+    {
+      "time_index": 1,
+      "fairness": 0.7097833021596465,
+      "fair_debug": {
+        "dp_max": 0.031391642910601536,
+        "eo_max": 0.08993631473001451,
+        "fpr_gap_max": 0.01704448246364415,
+        "wga_min": 0.7321156773211568
+      },
+      "harm": 0.01475040817427474,
+      "transparency": 0.75,
+      "gov": 0.8,
+      "drift": {
+        "psi": 0.010796353959294226,
+        "psi_raw": 0.013764187854320995,
+        "kl_raw": 0.007828520064267458
+      },
+      "ces": 0.7141858196215837,
+      "base_no_smooth": 0.714394438725092,
+      "actions": [
+        "Review demographic parity components",
+        "Trigger re-audit"
+      ]
+    },
+    {
+      "time_index": 2,
+      "fairness": 0.8436391314208631,
+      "fair_debug": {
+        "dp_max": 0.024895104895104825,
+        "eo_max": 0.039498573306402496,
+        "fpr_gap_max": 0.018398268398268386,
+        "wga_min": 0.7860082304526749
+      },
+      "harm": 0.014875022229343046,
+      "transparency": 0.75,
+      "gov": 0.8,
+      "drift": {
+        "psi": 0.028128522428855697,
+        "psi_raw": 0.02306872112961018,
+        "kl_raw": 0.03318832372810121
+      },
+      "ces": 0.7572312692793751,
+      "base_no_smooth": 0.759485839308548,
+      "actions": [
+        "Review demographic parity components"
+      ]
+    },
+    {
+      "time_index": 3,
+      "fairness": 0.8480994152046784,
+      "fair_debug": {
+        "dp_max": 0.054385964912280704,
+        "eo_max": 0.048136142625607725,
+        "fpr_gap_max": 0.02709851551956815,
+        "wga_min": 0.9166666666666666
+      },
+      "harm": 0.020113948645698668,
+      "transparency": 0.75,
+      "gov": 0.8,
+      "drift": {
+        "psi": 0.0116861404204551,
+        "psi_raw": 0.013435498695132369,
+        "kl_raw": 0.009936782145777832
+      },
+      "ces": 0.7615355139383571,
+      "base_no_smooth": 0.7616433915504522,
+      "actions": [
+        "Review demographic parity components"
+      ]
+    }
+  ]
+}

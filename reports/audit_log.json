@@ -1,0 +1,48 @@
+[
+  {
+    "time_index": 0,
+    "ces": 0.7185668207952578,
+    "fairness": 0.7353570547981196,
+    "harm": 0.027521518681899254,
+    "transparency": 0.75,
+    "actions": [
+      "Review demographic parity components",
+      "Trigger re-audit"
+    ],
+    "ts": 1759837915
+  },
+  {
+    "time_index": 1,
+    "ces": 0.7141858196215837,
+    "fairness": 0.7097833021596465,
+    "harm": 0.01475040817427474,
+    "transparency": 0.75,
+    "actions": [
+      "Review demographic parity components",
+      "Trigger re-audit"
+    ],
+    "ts": 1759837915
+  },
+  {
+    "time_index": 2,
+    "ces": 0.7572312692793751,
+    "fairness": 0.8436391314208631,
+    "harm": 0.014875022229343046,
+    "transparency": 0.75,
+    "actions": [
+      "Review demographic parity components"
+    ],
+    "ts": 1759837915
+  },
+  {
+    "time_index": 3,
+    "ces": 0.7615355139383571,
+    "fairness": 0.8480994152046784,
+    "harm": 0.020113948645698668,
+    "transparency": 0.75,
+    "actions": [
+      "Review demographic parity components"
+    ],
+    "ts": 1759837915
+  }
+]
