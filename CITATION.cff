@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Ethics Curve Lab (ECL) v0.1.1 — Open Research Toolkit (Enhanced Release)"
+version: "v0.1.1"
+doi: "10.5281/zenodo.17288003"
+date-released: 2025-10-07
+authors:
+  - family-names: Akhtar
+    given-names: Mohammad Amir Khusru
+    affiliation: Usha Martin University, Ranchi, India
+    email: shunya.ran.books@gmail.com
+repository-code: "https://github.com/shunyaranbooks/ethics-curve-lab"
+url: "https://github.com/shunyaranbooks/ethics-curve-lab"
+license: MIT
+keywords:
+  - AI ethics
+  - Curved Ethics
+  - moral drift
+  - fairness metrics
+  - recursive governance
+  - Shunya Publications
+abstract: >
+  Ethics Curve Lab (ECL) operationalizes "The Ethics Curve" by computing a Curved Ethics Score (CES) over
+  time-slices, detecting moral drift (PSI, KL), and enforcing recursive governance via a YAML policy.
+  The toolkit generates JSON/PNG audit reports and a Streamlit dashboard for transparency and reproducibility.
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Akhtar
+      given-names: Mohammad Amir Khusru
+  title: "Ethics Curve Lab (ECL) v0.1.1 — Open Research Toolkit (Enhanced Release)"
+  year: 2025
+  doi: "10.5281/zenodo.17288003"
+  url: "https://github.com/shunyaranbooks/ethics-curve-lab"
