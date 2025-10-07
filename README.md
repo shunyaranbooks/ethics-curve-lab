@@ -35,6 +35,14 @@ Or minimal:
 pip install -r requirements.txt
 ```
 
+
+📘 **Reference Book**
+
+This research toolkit is based on concepts introduced in  
+**[The Ethics Curve: Curved Ethics for Future Values (PhiloMind™ Book 5)](https://a.co/d/bSrI427)**  
+by *Dr. Mohammad Amir Khusru Akhtar (Shunya Publications)*.
+
+> “Ethics is not a code. It is a trajectory.” — *The Ethics Curve*
 ### 2) Run a demo (synthetic Adult-like data)
 ```bash
 python examples/adult_income_demo.py
